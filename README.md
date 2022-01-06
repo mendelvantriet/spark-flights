@@ -2,6 +2,12 @@
 
 Reads flight data from csv files and calculates the top N source airports. Output is written as csv files.
 
+## Original assignment
+
+I wrote this code a while ago and I can't remember the exact assignment. Maybe a simple jupyter notebook would have been enough, but I would not have been able to defend that choice. After all, I am the person that puts stuff into production. I don't play around in lab environments. So I aimed for a production worthy application with a Dockerfile.
+
+I am also not sure whether the assignment asked for a streaming application. I probably made it streaming to show off.
+
 ## Build
 
     mvn clean package
